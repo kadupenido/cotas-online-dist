@@ -60,7 +60,7 @@ var AppRoutingModule = /** @class */ (function () {
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-inverse navbar-fixed-top\">\r\n    <div class=\"container\">\r\n        <div class=\"navbar-header\">\r\n            <a class=\"navbar-brand\" href=\"#\">Cotas Online</a>\r\n        </div>\r\n    </div>\r\n  </nav>\r\n  <div class=\"container\">\r\n    <div class=\"content\">\r\n        <router-outlet></router-outlet>\r\n    </div>\r\n  </div>"
+module.exports = "<nav class=\"navbar navbar-inverse navbar-fixed-top\">\r\n    <div class=\"container\">\r\n        <div class=\"navbar-header\">\r\n            <a class=\"navbar-brand\" href=\"#\">Cotas Online</a>\r\n        </div>\r\n    </div>\r\n  </nav>\r\n  <div class=\"container\">\r\n    <div class=\"content\">\r\n        <ng4-loading-spinner> </ng4-loading-spinner>\r\n        <router-outlet></router-outlet>\r\n    </div>\r\n  </div>"
 
 /***/ }),
 
